@@ -7,24 +7,24 @@
 
 void main()
 {
-    int num1, num2, num3;
+    int x, y, z;
 
     printf("\n Enter three values");
-    scanf("%d %d %d", &num1, &num2, &num3);
-    printf("num1 = %d \t num2 = %d \t num3 = %d\n", num1, num2, num3);
+    scanf("%d %d %d", &x, &y, &z);
+    printf("x = %d \t y = %d \t z = %d\n", x, y, z);
 
-    if (num1 > num2)
+    if (x > y)
     {
-        if (num1 > num3)
+        if (x > z)
         {
-            printf("num1 is the greatest \n");
+            printf("x is the greatest \n");
         }
         else{
-            printf("num3 is the greatest \n");
+            printf("z is the greatest \n");
         }
     }
-    else if (num2 > num3)
-        printf("num2 is the greatest \n");
+    else if (y > z)
+        printf("y is the greatest \n");
     else
-        printf("num3 is the greatest \n");
+        printf("z is the greatest \n");
 }
