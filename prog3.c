@@ -5,15 +5,18 @@
  */
 #include <stdio.h>
 
-void main(){
+void main()
+{
     int num1, num2, num3;
 
     printf("\n Enter three values");
     scanf("%d %d %d", &num1, &num2, &num3);
     printf("num1 = %d \t num2 = %d \t num3 = %d\n", num1, num2, num3);
 
-    if (num1 > num2){
-        if (num1 > num3){
+    if (num1 > num2)
+    {
+        if (num1 > num3)
+        {
             printf("num1 is the greatest \n");
         }
         else{
